@@ -1,0 +1,84 @@
+"Exlari Development Syndicate" = {
+    key = "Exlari Development Syndicate"
+    ship_prefix = {
+        key = "ESS"
+    }
+    species = {
+        class = "HUM"
+        portrait = "humanoid_hp_09"
+        species_name = {
+            key = "Exlar"
+        }
+        species_plural = {
+            key = "Exlur"
+        }
+        species_adjective = {
+            key = "Exlari"
+        }
+        species_bio = "The Syndicate is hiring. The Syndicate is always hiring... and firing. Relying on an economy that takes the concept of contract labor to an extreme, if one looks only at its ever fluctuating employee rolls, the Exlari Syndicate is barely a coherent organization. The contracts, however, just keep coming and not only for big jobs like building a starship. Even a task as simple as cleaning a specific waste recepticle is treated as a unique work contract. This form of mercenary enterprise tapped the enormous potential of the Exlari workforce on their homeworld Jralad and may yet carry their species to interstellar fortune."
+        name_list = "HUM2"
+        gender = not_set
+        trait = "trait_thrifty"
+        trait = "trait_strong"
+        trait = "trait_deviants"
+    }
+    name = {
+        key = "Exlari Development Syndicate"
+    }
+    adjective = {
+        key = "Exlari"
+    }
+    authority = "auth_corporate"
+    government = "gov_megacorporation"
+    planet_name = {
+        key = "Jralad"
+    }
+    planet_class = "pc_ocean"
+    system_name = {
+        key = "Tel El"
+    }
+    initializer = ""
+    graphical_culture = "fungoid_01"
+    city_graphical_culture = "humanoid_01"
+    empire_flag = {
+        icon = {
+            category = "just-more-flags"
+            file = "flag_materialist2.dds"
+        }
+        background = {
+            category = "backgrounds"
+            file = "fabric_stripe_rotated.dds"
+        }
+        colors = {
+            "dark_grey"
+            "yellow"
+            "null"
+            "null"
+        }
+    }
+    ruler = {
+        gender = male
+        name = {
+            full_names = {
+                key = "Aumeren"
+            }
+        }
+        portrait = "humanoid_hp_09"
+        texture = 1
+        attachment = 0
+        clothes = 1
+        trait = "trait_ruler_industrialist"
+        leader_class = "scientist"
+    }
+    spawn_as_fallen = no
+    ignore_portrait_duplication = no
+    room = "cityscape23_room"
+    spawn_enabled = always
+    ethic = "ethic_militarist"
+    ethic = "ethic_fanatic_materialist"
+    civics = {
+        "civic_private_military_companies"
+        "civic_private_prospectors"
+    }
+    origin = "origin_default"
+}

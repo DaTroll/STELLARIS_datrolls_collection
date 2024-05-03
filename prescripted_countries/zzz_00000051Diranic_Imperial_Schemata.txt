@@ -1,0 +1,84 @@
+"Diranic Imperial Schemata" = {
+    key = "Diranic Imperial Schemata"
+    ship_prefix = {
+        key = "IDNS"
+    }
+    species = {
+        class = "REP"
+        portrait = "rep2"
+        species_name = {
+            key = "Diran"
+        }
+        species_plural = {
+            key = "Dirans"
+        }
+        species_adjective = {
+            key = "Diranic"
+        }
+        species_bio = "The enigmatic Polymaths, purportedly a hyper-intelligent race of Dirans constituting only 0.01% of their population, rule the Schemata from a vast imperial complex on their homeworld Dagama. Under their leadership, Diranic society has never been afraid to press into new fields of discovery regardless of the moral or ethical implications. Experimentation is celebrated and progress is practically worshipped. Nothing is valued more highly in their empire than novel information and bold innovations."
+        name_list = "REP4"
+        gender = not_set
+        trait = "trait_intelligent"
+        trait = "trait_natural_engineers"
+        trait = "trait_solitary"
+    }
+    name = {
+        key = "Diranic Imperial Schemata"
+    }
+    adjective = {
+        key = "Diranic"
+    }
+    authority = "auth_imperial"
+    government = "gov_illuminated_autocracy"
+    planet_name = {
+        key = "Dagama"
+    }
+    planet_class = "pc_tundra"
+    system_name = {
+        key = "Ghasmul"
+    }
+    initializer = ""
+    graphical_culture = "humanoid_01"
+    city_graphical_culture = "reptilian_01"
+    empire_flag = {
+        icon = {
+            category = "just-more-flags"
+            file = "flag_materialist3.dds"
+        }
+        background = {
+            category = "backgrounds"
+            file = "fabric_circle.dds"
+        }
+        colors = {
+            "yellow"
+            "turquoise"
+            "null"
+            "null"
+        }
+    }
+    ruler = {
+        gender = female
+        name = {
+            full_names = {
+                key = "Jet Oron the Polymath"
+            }
+        }
+        portrait = "rep2"
+        texture = 2
+        attachment = 1
+        clothes = 0
+        trait = "leader_trait_spark_of_genius"
+        leader_class = "scientist"
+    }
+    spawn_as_fallen = no
+    ignore_portrait_duplication = no
+    room = "masseffect2_room"
+    spawn_enabled = always
+    ethic = "ethic_authoritarian"
+    ethic = "ethic_fanatic_materialist"
+    civics = {
+        "civic_cutthroat_politics"
+        "civic_technocracy"
+    }
+    origin = "origin_default"
+}

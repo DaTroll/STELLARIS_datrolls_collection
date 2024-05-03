@@ -1,0 +1,91 @@
+"Confederation of Camrena" = {
+    key = "Confederation of Camrena"
+    ship_prefix = {
+        key = "CNC"
+    }
+    species = {
+        class = "MAM"
+        portrait = "mam17"
+        species_name = {
+            key = "Kiir"
+        }
+        species_plural = {
+            key = "Kiiran"
+        }
+        species_adjective = {
+            key = "Kiiran"
+        }
+        species_bio = "A species obsessed with mechanical creations, it is perhaps natural that the Kiiran rarely consider their own people anything more than components in the apparatus of state. Although the Premier speaks on their behalf in galactic affairs, no single central authority sets internal economic objectives or manages scientific endeavor on their homeworld Camrena. The dozen or so nations that constitute the Confederation nevertheless all employ the same kind of tightly controlled autocratic systems."
+        name_list = "MAM3"
+        gender = not_set
+        trait = "trait_communal"
+        trait = "trait_natural_sociologists"
+    }
+    name = {
+        key = "Confederation of Camrena"
+    }
+    adjective = {
+        key = "Camordic"
+    }
+    authority = "auth_dictatorial"
+    government = "gov_totalitarian_regime"
+    planet_name = {
+        key = "Camrena"
+    }
+    planet_class = "pc_arid"
+    system_name = {
+        key = "Padarn"
+    }
+    initializer = ""
+    graphical_culture = "mammalian_01"
+    city_graphical_culture = "mammalian_01"
+    empire_flag = {
+        icon = {
+            category = "just-more-flags"
+            file = "flag_authoritarian1.dds"
+        }
+        background = {
+            category = "backgrounds"
+            file = "fabric_circle.dds"
+        }
+        colors = {
+            "red"
+            "orange"
+            "null"
+            "null"
+        }
+    }
+    ruler = {
+        gender = male
+        name = {
+            full_names = {
+                key = "Merould cur'Padarn"
+            }
+        }
+        portrait = "mam17"
+        texture = 3
+        attachment = 0
+        clothes = 2
+        ruler_title = {
+            key = "Premier"
+            literal = yes
+        }
+        ruler_title_female = {
+            key = "Premier"
+            literal = yes
+        }
+        trait = "trait_ruler_logistic_understanding"
+        leader_class = "commander"
+    }
+    spawn_as_fallen = no
+    ignore_portrait_duplication = no
+    room = "desert3_room"
+    spawn_enabled = always
+    ethic = "ethic_fanatic_authoritarian"
+    ethic = "ethic_materialist"
+    civics = {
+        "civic_corvee_system"
+        "civic_slaver_guilds"
+    }
+    origin = "origin_mechanists"
+}

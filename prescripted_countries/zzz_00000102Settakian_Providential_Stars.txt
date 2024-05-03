@@ -1,0 +1,85 @@
+"Settakian Providential Stars" = {
+    key = "Settakian Providential Stars"
+    ship_prefix = {
+        key = "PNC"
+    }
+    species = {
+        class = "MOL"
+        portrait = "mol13"
+        species_name = {
+            key = "Settak"
+        }
+        species_plural = {
+            key = "Settaki"
+        }
+        species_adjective = {
+            key = "Settakian"
+        }
+        species_bio = "Devoted subjects of a heavenly hereditary autocrat, the Settaki of Gluggnal see far greater promise in building their own civilization up to be a brilliant example of Providence than in the prospect of relations with sullied alien outsiders. The stars that shine upon their celestial empire are surely blessed, but the tourism opportunities are few."
+        name_list = "MOL3"
+        gender = not_set
+        trait = "trait_agrarian"
+        trait = "trait_strong"
+        trait = "trait_sedentary"
+    }
+    name = {
+        key = "Settakian Providential Stars"
+    }
+    adjective = {
+        key = "Settakian"
+    }
+    authority = "auth_imperial"
+    government = "gov_celestial_empire"
+    planet_name = {
+        key = "Gluggnal"
+    }
+    planet_class = "pc_desert"
+    system_name = {
+        key = "Daggimga"
+    }
+    initializer = ""
+    graphical_culture = "molluscoid_01"
+    city_graphical_culture = "molluscoid_01"
+    empire_flag = {
+        icon = {
+            category = "just-more-flags"
+            file = "flag_spiritualist3.dds"
+        }
+        background = {
+            category = "backgrounds"
+            file = "fabric_horizon.dds"
+        }
+        colors = {
+            "dark_blue"
+            "teal"
+            "null"
+            "null"
+        }
+    }
+    ruler = {
+        gender = female
+        name = {
+            full_names = {
+                key = "Awn Cliash"
+            }
+        }
+        portrait = "mol13"
+        texture = 0
+        attachment = 0
+        clothes = 0
+        trait = "trait_ruler_charismatic"
+        leader_class = "commander"
+    }
+    spawn_as_fallen = no
+    ignore_portrait_duplication = no
+    room = "throne3_room"
+    spawn_enabled = always
+    ethic = "ethic_xenophobe"
+    ethic = "ethic_pacifist"
+    ethic = "ethic_spiritualist"
+    civics = {
+        "civic_inwards_perfection"
+        "civic_philosopher_king"
+    }
+    origin = "origin_scion"
+}

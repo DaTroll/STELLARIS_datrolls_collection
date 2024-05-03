@@ -1,0 +1,83 @@
+"Unified Zamkand State" = {
+    key = "Unified Zamkand State"
+    ship_prefix = {
+        key = "ZNSS"
+    }
+    species = {
+        class = "PLANT"
+        portrait = "pla6"
+        species_name = {
+            key = "Zamkand"
+        }
+        species_plural = {
+            key = "Zamkands"
+        }
+        species_adjective = {
+            key = "Zamkander"
+        }
+        species_bio = "Leading their lives on almost entirely pre-determined paths, the Zamkands of the Ya-te-veo system exist in a state of such sublimation to the prevailing authorities that many outsiders consider them just a shade short of a hive mind. Although seemingly content as cogs in a vast interstellar machine, they are perhaps surprisingly willing to participate in galactic affairs."
+        name_list = "PLANT"
+        gender = not_set
+        trait = "trait_conformists"
+    }
+    name = {
+        key = "Unified Zamkand State"
+    }
+    adjective = {
+        key = "Zamkander"
+    }
+    authority = "auth_dictatorial"
+    government = "gov_constitutional_dictatorship"
+    advisor_voice_type = "l_authoritarian"
+    planet_name = {
+        key = "Hearthsoil"
+    }
+    planet_class = "pc_savannah"
+    system_name = {
+        key = "Ya-te-veo"
+    }
+    initializer = ""
+    graphical_culture = "plantoid_01"
+    city_graphical_culture = "plantoid_01"
+    empire_flag = {
+        icon = {
+            category = "just-more-flags"
+            file = "flag_authoritarian4.dds"
+        }
+        background = {
+            category = "backgrounds"
+            file = "fabric_circle.dds"
+        }
+        colors = {
+            "indigo"
+            "burgundy"
+            "null"
+            "null"
+        }
+    }
+    ruler = {
+        gender = female
+        name = {
+            full_names = {
+                key = "Rhizome of Bronze"
+            }
+        }
+        portrait = "pla6"
+        texture = 2
+        attachment = 0
+        clothes = 0
+        trait = "leader_trait_principled"
+        leader_class = "official"
+    }
+    spawn_as_fallen = no
+    ignore_portrait_duplication = no
+    room = "outdoor21_room"
+    spawn_enabled = always
+    ethic = "ethic_fanatic_authoritarian"
+    ethic = "ethic_xenophile"
+    civics = {
+        "civic_corvee_system"
+        "civic_police_state"
+    }
+    origin = "origin_default"
+}

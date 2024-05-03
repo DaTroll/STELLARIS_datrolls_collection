@@ -1,0 +1,101 @@
+"Tethysian Universal Cynosure" = {
+    key = "Tethysian Universal Cynosure"
+    ship_prefix = {
+        key = ""
+    }
+    species = {
+        class = "MACHINE"
+        portrait = "sd_mol_robot"
+        species_name = {
+            key = "Tethysian"
+        }
+        species_plural = {
+            key = "Tethysians"
+        }
+        species_adjective = {
+            key = "Tethysian"
+        }
+        species_bio = "Awoken from the Hadean depths after a ten million year standby cycle by the arrival of Human colonists from Earth, the Tethysian machines found these organics especially adaptable to their systems. They spent the next century experimenting with Human cybernetics before exhausting all avenues of study. Concluding that the arrival of these colonists must indicate the beginning of a new cycle of galactic civilization, they then quickly reprioritized resources to interstellar expansion in order to locate and secure more diverse specimens..."
+        name_list = "MACHINE1"
+        gender = not_set
+        trait = "trait_machine_unit"
+        trait = "trait_robot_learning_algorithms"
+    }
+    secondary_species = {
+        class = "HUM"
+        portrait = "human"
+        species_name = {
+            key = "Human"
+        }
+        species_plural = {
+            key = "Humans"
+        }
+        species_adjective = {
+            key = "Human"
+        }
+        species_bio = "Although self-identifying as Human when queried, these specimens are highly modified from their genetic ancestors who left Earth in the late 21st Century aboard a primitive colony ship. Surviving the trip through an unstable wormhole, they reached the Deneb System only to find their intended destination... occupied. The Tethysian machines made short work of the colonist's attempt at self-defense and rapidly integrated the entire population as cyborgs in their ever-growing collective."
+        name_list = "HUMAN1"
+        gender = not_set
+        trait = "trait_cybernetic"
+        trait = "trait_strong"
+        trait = "trait_communal"
+    }
+    name = {
+        key = "Tethysian Universal Cynosure"
+    }
+    adjective = {
+        key = "Tethysian"
+    }
+    authority = "auth_machine_intelligence"
+    government = "gov_machine_assimilator"
+    planet_name = {
+        key = "Tethys"
+    }
+    planet_class = "pc_ocean"
+    system_name = {
+        key = "Deneb"
+    }
+    initializer = "deneb_system"
+    graphical_culture = "molluscoid_01"
+    city_graphical_culture = "molluscoid_01"
+    empire_flag = {
+        icon = {
+            category = "just-more-flags"
+            file = "flag_tethysian_universal_cynosure.dds"
+        }
+        background = {
+            category = "backgrounds"
+            file = "fabric_circle.dds"
+        }
+        colors = {
+            "dark_grey"
+            "turquoise"
+            "null"
+            "null"
+        }
+    }
+    ruler = {
+        gender = female
+        name = {
+            full_names = {
+                key = "Synchronizer"
+            }
+        }
+        portrait = "sd_mol_robot"
+        texture = 0
+        attachment = 0
+        clothes = 0
+        trait = "trait_ruler_logistic_understanding"
+        leader_class = "commander"
+    }
+    spawn_as_fallen = no
+    ignore_portrait_duplication = no
+    room = "spiritualist3_room"
+    spawn_enabled = always
+    ethic = "ethic_gestalt_consciousness"
+    civics = {
+        "civic_machine_delegated_functions"
+        "civic_machine_assimilator"
+    }
+    origin = "origin_remnants"
+}

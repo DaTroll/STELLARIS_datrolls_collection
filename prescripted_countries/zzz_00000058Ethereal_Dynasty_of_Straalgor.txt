@@ -1,0 +1,83 @@
+"Ethereal Dynasty of Straalgor" = {
+    key = "Ethereal Dynasty of Straalgor"
+    ship_prefix = {
+        key = ""
+    }
+    species = {
+        class = "ART"
+        portrait = "art12"
+        species_name = {
+            key = "Eysh-Vaak"
+        }
+        species_plural = {
+            key = "Eysh-Vaaks"
+        }
+        species_adjective = {
+            key = "Eysh-Vaaki"
+        }
+        species_bio = "A prey species whose main predators were wiped out by a plague only a few hundred thousand years ago, the Eysh-Vaak are nonviolent hive builders. Without significant external or internal pressure, their civilization has developed slowly. Centuries passed between their first powered atmospheric flight and first venture into outer space. Despite this plodding pace, their society is tightly knit and uniformly aligned to the leadership of their monarch."
+        name_list = "ART3"
+        gender = not_set
+        trait = "trait_communal"
+        trait = "trait_natural_engineers"
+    }
+    name = {
+        key = "Ethereal Dynasty of Straalgor"
+    }
+    adjective = {
+        key = "Straalgoran"
+    }
+    authority = "auth_imperial"
+    government = "gov_enlightened_monarchy"
+    planet_name = {
+        key = "J'Vaak"
+    }
+    planet_class = "pc_continental"
+    system_name = {
+        key = "Straalgor"
+    }
+    initializer = ""
+    graphical_culture = "arthropoid_01"
+    city_graphical_culture = "arthropoid_01"
+    empire_flag = {
+        icon = {
+            category = "just-more-flags"
+            file = "flag_nature7.dds"
+        }
+        background = {
+            category = "backgrounds"
+            file = "fabric_gradient.dds"
+        }
+        colors = {
+            "dark_green"
+            "dark_teal"
+            "null"
+            "null"
+        }
+    }
+    ruler = {
+        gender = female
+        name = {
+            full_names = {
+                key = "Gek M'Bok"
+            }
+        }
+        portrait = "art12"
+        texture = 6
+        attachment = 0
+        clothes = 0
+        trait = "trait_ruler_industrialist"
+        leader_class = "scientist"
+    }
+    spawn_as_fallen = no
+    ignore_portrait_duplication = no
+    room = "underwater2_room"
+    spawn_enabled = always
+    ethic = "ethic_fanatic_pacifist"
+    ethic = "ethic_spiritualist"
+    civics = {
+        "civic_agrarian_idyll"
+        "civic_philosopher_king"
+    }
+    origin = "origin_default"
+}

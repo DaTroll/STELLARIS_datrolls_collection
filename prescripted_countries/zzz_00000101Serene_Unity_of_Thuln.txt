@@ -1,0 +1,104 @@
+"Serene Unity of Thuln" = {
+    key = "Serene Unity of Thuln"
+    ship_prefix = {
+        key = "USV"
+    }
+    species = {
+        class = "MOL"
+        portrait = "mol7"
+        species_name = {
+            key = "Lanbel"
+        }
+        species_plural = {
+            key = "Lanbeli"
+        }
+        species_adjective = {
+            key = "Lanbellar"
+        }
+        species_bio = "Relying on the stalwart protection of their Genoggian friends and the placidity of the waters of their homeworld Thuln, the Lanbeli float gracefully through their long lives engaging in intellectual exercises. So deliberate and leisurely was their development as a sentient species that almost a thousand standard years passed between the first Lanbeli spaceflight and their discovery of hyperspace."
+        name_list = "MOL2"
+        gender = not_set
+        trait = "trait_charismatic"
+        trait = "trait_venerable"
+        trait = "trait_nonadaptive"
+        trait = "trait_weak"
+        trait = "trait_sedentary"
+    }
+    secondary_species = {
+        class = "MOL"
+        portrait = "mol11"
+        species_name = {
+            key = "Genoggian"
+        }
+        species_plural = {
+            key = "Genoggians"
+        }
+        species_adjective = {
+            key = "Genoggian"
+        }
+        species_bio = "Evolved as symbiotic hosts to the Lanbeli, whose ancestors were once like pilot fish to their own ancient  precursors, the large and sturdy Genoggians are a physically impressive but unrefined species."
+        name_list = "MOL2"
+        gender = not_set
+        trait = "trait_syncretic_proles"
+        trait = "trait_strong"
+    }
+    name = {
+        key = "Serene Unity of Thuln"
+    }
+    adjective = {
+        key = "Thulnic"
+    }
+    authority = "auth_dictatorial"
+    government = "gov_irenic_dictatorship"
+    planet_name = {
+        key = "Thuln"
+    }
+    planet_class = "pc_ocean"
+    system_name = {
+        key = "Dhanbet"
+    }
+    initializer = ""
+    graphical_culture = "aquatic_01"
+    city_graphical_culture = "aquatic_01"
+    empire_flag = {
+        icon = {
+            category = "just-more-flags"
+            file = "flag_nature3.dds"
+        }
+        background = {
+            category = "backgrounds"
+            file = "fabric_gradient.dds"
+        }
+        colors = {
+            "dark_teal"
+            "light_blue"
+            "null"
+            "null"
+        }
+    }
+    ruler = {
+        gender = male
+        name = {
+            full_names = {
+                key = "Llyedith"
+            }
+        }
+        portrait = "mol7"
+        texture = 0
+        attachment = 0
+        clothes = 0
+        trait = "trait_ruler_logistic_understanding"
+        leader_class = "official"
+    }
+    spawn_as_fallen = no
+    ignore_portrait_duplication = no
+    room = "underwater1_room"
+    spawn_enabled = always
+    ethic = "ethic_xenophile"
+    ethic = "ethic_fanatic_pacifist"
+    civics = {
+        "civic_functional_architecture"
+        "civic_agrarian_idyll"
+    }
+    origin = "origin_syncretic_evolution"
+}

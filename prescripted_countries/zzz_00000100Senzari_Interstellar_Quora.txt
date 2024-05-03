@@ -1,0 +1,85 @@
+"Senzari Interstellar Quora" = {
+    key = "Senzari Interstellar Quora"
+    ship_prefix = {
+        key = "SMC"
+    }
+    species = {
+        class = "HUM"
+        portrait = "humanoid_05"
+        species_name = {
+            key = "Ta'lul"
+        }
+        species_plural = {
+            key = "Ta'lulans"
+        }
+        species_adjective = {
+            key = "Ta'lulan"
+        }
+        species_bio = "A civilization ruled by a council of stoics and guided by dialectic principles, the Quora of the Ta'lulans of Senzar represents a species that seeks primarily to understand the nature of the physical universe. Exceptionally long-lived, individual Ta'lulans usually go through several distinct decades-long phases of life, including periods of extended isolation during which they hone their meditative practices. Another peculiar element of their biology is a years-long reproductive cycle. Though abhoring the use of violence to achieve their ends, if provoked, one should expect the Ta'lulans to bring cutting edge tech to bear against their enemies."
+        name_list = "HUM3"
+        gender = not_set
+        trait = "trait_venerable"
+        trait = "trait_sedentary"
+        trait = "trait_slow_breeders"
+    }
+    name = {
+        key = "Senzari Interstellar Quora"
+    }
+    adjective = {
+        key = "Senzari"
+    }
+    authority = "auth_oligarchic"
+    government = "gov_science_directorate"
+    advisor_voice_type = "l_the_technocrat"
+    planet_name = {
+        key = "Senzar"
+    }
+    planet_class = "pc_desert"
+    system_name = {
+        key = "Shamok"
+    }
+    initializer = ""
+    graphical_culture = "molluscoid_01"
+    city_graphical_culture = "humanoid_01"
+    empire_flag = {
+        icon = {
+            category = "just-more-flags"
+            file = "flag_materialist8.dds"
+        }
+        background = {
+            category = "backgrounds"
+            file = "fabric_circle.dds"
+        }
+        colors = {
+            "red_orange"
+            "burgundy"
+            "null"
+            "null"
+        }
+    }
+    ruler = {
+        gender = female
+        name = {
+            full_names = {
+                key = "Ts'aimnu of Kovar"
+            }
+        }
+        portrait = "humanoid_05_female_01"
+        texture = 0
+        attachment = 2
+        clothes = 2
+        trait = "trait_ruler_eye_for_talent"
+        leader_class = "scientist"
+    }
+    spawn_as_fallen = no
+    ignore_portrait_duplication = no
+    room = "ethic_light_side_room"
+    spawn_enabled = always
+    ethic = "ethic_pacifist"
+    ethic = "ethic_fanatic_materialist"
+    civics = {
+        "civic_efficient_bureaucracy"
+        "civic_technocracy"
+    }
+    origin = "origin_mechanists"
+}

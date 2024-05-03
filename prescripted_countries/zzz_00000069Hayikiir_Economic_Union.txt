@@ -1,0 +1,92 @@
+"Hayikiir Economic Union" = {
+    key = "Hayikiir Economic Union"
+    ship_prefix = {
+        key = ""
+    }
+    species = {
+        class = "REP"
+        portrait = "rep4"
+        species_name = {
+            key = "Ix-Kayn"
+        }
+        species_plural = {
+            key = "Ix-Kayn"
+        }
+        species_adjective = {
+            key = "Ix-Kaynian"
+        }
+        species_bio = "The Ix-Kayn of the arid planet Hayikiir evolved from reptilians adapted to survive long period of drought by both carefully stewarding their resources and leaving old dens behind when new opportunities presented themselves. Though a very mobile species, the Ix-Kayn are still egg-laying. Moreover, Ix-Kaynian whelps are hatched in a notably underdeveloped state, requiring a longer than average time in the creche. The Industrial Age of their homeworld, Hayikiir, was a period of great cultural transformation that saw the rise of major politico-economic blocs whose successors still exist as vast megacorporate institutions. The influence of these groups grew especially fast during the Hayikiiran Atomic Age, when the rational pursuit of mutual prosperity triumphed over baser competitive instincts. Chasing the dream of an 'eternal peace congress', this trend eventually resulted in the formation of a planetary Economic Union. The agencies and institutions of the Union influence virtually all Ix-Kaynian affairs, ensuring fair play in business and politics according to guiding principles set by the High Commissioner."
+        name_list = "REP2"
+        gender = not_set
+        trait = "trait_thrifty"
+        trait = "trait_nomadic"
+        trait = "trait_slow_breeders"
+    }
+    name = {
+        key = "Hayikiir Economic Union"
+    }
+    adjective = {
+        key = "Hayikiiran"
+    }
+    authority = "auth_corporate"
+    government = "gov_trade_league"
+    advisor_voice_type = "l_pacifist"
+    planet_name = {
+        key = "Hayikiir"
+    }
+    planet_class = "pc_arid"
+    system_name = {
+        key = "Hamakhaave"
+    }
+    initializer = ""
+    graphical_culture = "reptilian_01"
+    city_graphical_culture = "reptilian_01"
+    empire_flag = {
+        icon = {
+            category = "just-more-flags"
+            file = "flag_egalitarian1.dds"
+        }
+        background = {
+            category = "backgrounds"
+            file = "fabric_ring.dds"
+        }
+        colors = {
+            "turquoise"
+            "teal"
+            "null"
+            "null"
+        }
+    }
+    ruler = {
+        gender = male
+        name = {
+            full_names = {
+                key = "J.L.R. Kol-Prakyo"
+            }
+        }
+        portrait = "rep4"
+        texture = 4
+        attachment = 0
+        clothes = 1
+        ruler_title = {
+            key = "High Commissioner"
+        }
+        ruler_title_female = {
+            key = "High Commissioner"
+        }
+        trait = "trait_ruler_logistic_understanding"
+        leader_class = "commander"
+    }
+    spawn_as_fallen = no
+    ignore_portrait_duplication = no
+    room = "outdoor18_room"
+    spawn_enabled = always
+    ethic = "ethic_egalitarian"
+    ethic = "ethic_xenophile"
+    ethic = "ethic_pacifist"
+    civics = {
+        "civic_free_traders"
+        "civic_trading_posts"
+    }
+    origin = "origin_default"
+}

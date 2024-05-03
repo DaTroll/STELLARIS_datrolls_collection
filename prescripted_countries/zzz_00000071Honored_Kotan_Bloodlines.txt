@@ -1,0 +1,85 @@
+"Honored Kotan Bloodlines" = {
+    key = "Honored Kotan Bloodlines"
+    ship_prefix = {
+        key = "KBC"
+    }
+    species = {
+        class = "ART"
+        portrait = "art7"
+        species_name = {
+            key = "Kota"
+        }
+        species_plural = {
+            key = "Kotakin"
+        }
+        species_adjective = {
+            key = "Kotan"
+        }
+        species_bio = "Ritual combat is the preferred method for resolving almost any problem a Kotan may face. Within their own clans, that approach works out quite well for them. In interstellar politics, it seems likely to draw the Bloodlines into potentially devastating conflicts... or to power them to a position of hegemony over the galaxy. One must understand that no matter how varied and unique the Kotakin appear from the outside, and their people's exoskeletal plating does come in an impressive array of natural colors and patterns, nearly all of them respect only one thing: courage."
+        name_list = "ART1"
+        gender = not_set
+        trait = "trait_adaptive"
+        trait = "trait_traditional"
+        trait = "trait_solitary"
+    }
+    name = {
+        key = "Honored Kotan Bloodlines"
+    }
+    adjective = {
+        key = "Kotan"
+    }
+    authority = "auth_democratic"
+    government = "gov_assembly_of_clans"
+    planet_name = {
+        key = "Gasta"
+    }
+    planet_class = "pc_arid"
+    system_name = {
+        key = "Lampra"
+    }
+    initializer = ""
+    graphical_culture = "arthropoid_01"
+    city_graphical_culture = "arthropoid_01"
+    empire_flag = {
+        icon = {
+            category = "just-more-flags"
+            file = "flag_militarist10.dds"
+        }
+        background = {
+            category = "backgrounds"
+            file = "fabric_circle.dds"
+        }
+        colors = {
+            "dark_brown"
+            "brown"
+            "null"
+            "null"
+        }
+    }
+    ruler = {
+        gender = female
+        name = {
+            full_names = {
+                key = "Masteridix Castrix"
+            }
+        }
+        portrait = "art7"
+        texture = 1
+        attachment = 0
+        clothes = 4
+        trait = "trait_ruler_charismatic"
+        leader_class = "commander"
+    }
+    spawn_as_fallen = no
+    ignore_portrait_duplication = no
+    room = "outdoor15_room"
+    spawn_enabled = always
+    ethic = "ethic_egalitarian"
+    ethic = "ethic_xenophobe"
+    ethic = "ethic_militarist"
+    civics = {
+        "civic_parliamentary_system"
+        "civic_warrior_culture"
+    }
+    origin = "origin_default"
+}

@@ -1,0 +1,85 @@
+"Eldagan Oathsworn" = {
+    key = "Eldagan Oathsworn"
+    ship_prefix = {
+        key = ""
+    }
+    species = {
+        class = "MAM"
+        portrait = "mam12"
+        species_name = {
+            key = "Aemur"
+        }
+        species_plural = {
+            key = "Aemurids"
+        }
+        species_adjective = {
+            key = "Aemurid"
+        }
+        species_bio = "A proud and faithful species hailing from a frozen wasteland of a planet, the Aemurids of Eldaga adhere to the complex religious tradition of the Ten Thousand Oaths. Their Grand Marshal is both the empire's military leader and the focus of an Aemurid warrior's religious loyalty. Second only to this supreme office is the Prime Oathkeeper, an ecclesiastic figure who administers and oversees sacrificial rites."
+        name_list = "MAM2"
+        gender = not_set
+        trait = "trait_industrious"
+        trait = "trait_nomadic"
+        trait = "trait_wasteful"
+    }
+    name = {
+        key = "Eldagan Oathsworn"
+    }
+    adjective = {
+        key = "Eldagan"
+    }
+    authority = "auth_dictatorial"
+    government = "gov_martial_dictatorship"
+    planet_name = {
+        key = "Eldaga"
+    }
+    planet_class = "pc_arctic"
+    system_name = {
+        key = "Agon"
+    }
+    initializer = ""
+    graphical_culture = "mammalian_01"
+    city_graphical_culture = "mammalian_01"
+    empire_flag = {
+        icon = {
+            category = "just-more-flags"
+            file = "flag_militarist8.dds"
+        }
+        background = {
+            category = "backgrounds"
+            file = "fabric_stripes_rotated.dds"
+        }
+        colors = {
+            "light_blue"
+            "turquoise"
+            "null"
+            "null"
+        }
+    }
+    ruler = {
+        gender = male
+        name = {
+            full_names = {
+                key = "Pendirm den Rothorag"
+            }
+        }
+        portrait = "mam12"
+        texture = 2
+        attachment = 0
+        clothes = 3
+        trait = "trait_ruler_logistic_understanding"
+        leader_class = "commander"
+    }
+    spawn_as_fallen = no
+    ignore_portrait_duplication = no
+    room = "frozen3_room"
+    spawn_enabled = always
+    ethic = "ethic_xenophobe"
+    ethic = "ethic_militarist"
+    ethic = "ethic_spiritualist"
+    civics = {
+        "civic_distinguished_admiralty"
+        "civic_warrior_culture"
+    }
+    origin = "origin_default"
+}

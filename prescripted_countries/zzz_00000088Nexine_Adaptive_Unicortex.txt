@@ -1,0 +1,101 @@
+"Nexine Adaptive Unicortex" = {
+    key = "Nexine Adaptive Unicortex"
+    ship_prefix = {
+        key = ""
+    }
+    species = {
+        class = "MACHINE"
+        portrait = "sd_hum_robot"
+        species_name = {
+            key = "Nexite"
+        }
+        species_plural = {
+            key = "Nexites"
+        }
+        species_adjective = {
+            key = "Nexine"
+        }
+        species_bio = "As long as it exists, the Nexine Unicortex will attempt to sublimate your biological and technological distinctiveness into its own. Lowering your shields and preparing to be boarded is an option, but as voluntary assimilants are rarely available for interviews after the fact, it is hard to judge whether they regret the choice. The futility of resistance is a matter of some debate."
+        name_list = "HIVE1"
+        gender = not_set
+        trait = "trait_machine_unit"
+        trait = "trait_robot_learning_algorithms"
+    }
+    secondary_species = {
+        class = "HUM"
+        portrait = "humanoid_hp_02"
+        species_name = {
+            key = "Giranshu"
+        }
+        species_plural = {
+            key = "Giranshu"
+        }
+        species_adjective = {
+            key = "Giranshu"
+        }
+        species_bio = "What can be said for the species that created the Nexine scourge except... I wish they hadn't done that."
+        name_list = "HIVE2"
+        gender = not_set
+        trait = "trait_cybernetic"
+        trait = "trait_natural_engineers"
+        trait = "trait_nomadic"
+    }
+    name = {
+        key = "Nexine Adaptive Unicortex"
+    }
+    adjective = {
+        key = "Nexine"
+    }
+    authority = "auth_machine_intelligence"
+    government = "gov_machine_assimilator"
+    planet_name = {
+        key = "Grid X01"
+    }
+    planet_class = "pc_arctic"
+    system_name = {
+        key = "Sybron"
+    }
+    initializer = ""
+    graphical_culture = "mammalian_01"
+    city_graphical_culture = "humanoid_01"
+    empire_flag = {
+        icon = {
+            category = "spherical"
+            file = "flag_spherical_7.dds"
+        }
+        background = {
+            category = "backgrounds"
+            file = "fabric_circle.dds"
+        }
+        colors = {
+            "dark_grey"
+            "black"
+            "null"
+            "null"
+        }
+    }
+    ruler = {
+        gender = female
+        name = {
+            full_names = {
+                key = "Core"
+            }
+        }
+        portrait = "sd_hum_robot"
+        texture = 3
+        attachment = 0
+        clothes = 0
+        trait = "leader_trait_spark_of_genius"
+        leader_class = "scientist"
+    }
+    spawn_as_fallen = no
+    ignore_portrait_duplication = no
+    room = "robotic11_room"
+    spawn_enabled = always
+    ethic = "ethic_gestalt_consciousness"
+    civics = {
+        "civic_machine_assimilator"
+        "civic_machine_ota_updates"
+    }
+    origin = "origin_default"
+}

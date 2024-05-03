@@ -1,0 +1,84 @@
+"Revolutionary Union of Sol" = {
+    key = "Revolutionary Union of Sol"
+    ship_prefix = {
+        key = "UNS"
+    }
+    species = {
+        class = "HUM"
+        portrait = "human"
+        species_name = {
+            key = "Human"
+        }
+        species_plural = {
+            key = "Humans"
+        }
+        species_adjective = {
+            key = "Human"
+        }
+        species_bio = "Earth's industrial age brought with it widespread political upheaval. At the bidding of tyrants and their bourgeois lackeys, war both hot and cold cost many lives and lasted many generations. In the end, the people triumphed. The Red October revolution became a global movement with undeniable momentum. Old, corrupt societies fell as the workers of the world united. Eventually, the dictatorship of the proletariat gave way to true communism. Fortunately so, for collective ownership of Earth ensured its survival despite climate change. Looking to the stars, Humanity strives for a bright future where the galaxy takes from each being according to its ability and gives to each according to its need."
+        name_list = "HUMAN1"
+        gender = not_set
+        trait = "trait_adaptive"
+        trait = "trait_nomadic"
+        trait = "trait_wasteful"
+    }
+    name = {
+        key = "Revolutionary Union of Sol"
+    }
+    adjective = {
+        key = "Solar"
+    }
+    authority = "auth_oligarchic"
+    government = "gov_science_directorate"
+    planet_name = {
+        key = "Zemlya"
+    }
+    planet_class = "pc_continental"
+    system_name = {
+        key = "Sol"
+    }
+    initializer = "sol_system_initializer"
+    graphical_culture = "mammalian_01"
+    city_graphical_culture = "mammalian_01"
+    empire_flag = {
+        icon = {
+            category = "just-more-flags"
+            file = "flag_revolutionary_union_of_sol2.dds"
+        }
+        background = {
+            category = "backgrounds"
+            file = "fabric.dds"
+        }
+        colors = {
+            "red"
+            "red"
+            "null"
+            "null"
+        }
+    }
+    ruler = {
+        gender = female
+        name = {
+            full_names = {
+                key = "Valentina Tsiolkovskaya"
+            }
+        }
+        portrait = "human_female_04"
+        texture = 0
+        attachment = 4
+        clothes = 6
+        trait = "leader_trait_spark_of_genius"
+        leader_class = "scientist"
+    }
+    spawn_as_fallen = no
+    ignore_portrait_duplication = no
+    room = "cityscape18_room"
+    spawn_enabled = always
+    ethic = "ethic_egalitarian"
+    ethic = "ethic_fanatic_materialist"
+    civics = {
+        "civic_meritocracy"
+        "civic_technocracy"
+    }
+    origin = "origin_default"
+}

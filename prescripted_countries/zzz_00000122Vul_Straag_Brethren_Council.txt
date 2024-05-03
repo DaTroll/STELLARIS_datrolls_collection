@@ -1,0 +1,85 @@
+"Vul Straag Brethren Council" = {
+    key = "Vul Straag Brethren Council"
+    ship_prefix = {
+        key = ""
+    }
+    species = {
+        class = "MAM"
+        portrait = "mam8"
+        species_name = {
+            key = "Vul Straag"
+        }
+        species_plural = {
+            key = "Vul Straags"
+        }
+        species_adjective = {
+            key = "Vul Straagan"
+        }
+        species_bio = "Metal."
+        name_list = "MAM3"
+        gender = not_set
+        trait = "trait_industrious"
+        trait = "trait_strong"
+        trait = "trait_quarrelsome"
+    }
+    name = {
+        key = "Vul Straag Brethren Council"
+    }
+    adjective = {
+        key = "Vul Straagan"
+    }
+    authority = "auth_democratic"
+    government = "gov_assembly_of_clans"
+    planet_name = {
+        key = "Dezt"
+    }
+    planet_class = "pc_continental"
+    system_name = {
+        key = "Urloche"
+    }
+    initializer = ""
+    graphical_culture = "nemesis_01"
+    city_graphical_culture = "necroid_01"
+    empire_flag = {
+        icon = {
+            category = "just-more-flags"
+            file = "flag_militarist7.dds"
+        }
+        background = {
+            category = "backgrounds"
+            file = "fabric_rising.dds"
+        }
+        colors = {
+            "dark_grey"
+            "black"
+            "null"
+            "null"
+        }
+    }
+    ruler = {
+        gender = male
+        name = {
+            full_names = {
+                key = "Regolid had'Marn"
+            }
+        }
+        portrait = "mam8"
+        texture = 0
+        attachment = 0
+        clothes = 4
+        trait = "trait_ruler_warlike"
+        leader_class = "commander"
+    }
+    spawn_as_fallen = no
+    ignore_portrait_duplication = no
+    room = "stargate1_room"
+    spawn_enabled = always
+    ethic = "ethic_xenophobe"
+    ethic = "ethic_militarist"
+    ethic = "ethic_materialist"
+    civics = {
+        "civic_warrior_culture"
+        "civic_mining_guilds"
+    }
+    origin = "origin_mechanists"
+}

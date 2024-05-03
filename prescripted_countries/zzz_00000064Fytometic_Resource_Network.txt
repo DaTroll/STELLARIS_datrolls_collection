@@ -1,0 +1,83 @@
+"Fytometic Resource Network" = {
+    key = "Fytometic Resource Network"
+    ship_prefix = {
+        key = "FNC"
+    }
+    species = {
+        class = "MACHINE"
+        portrait = "sd_pla_robot"
+        species_name = {
+            key = "Fytomek"
+        }
+        species_plural = {
+            key = "Fytomeks"
+        }
+        species_adjective = {
+            key = "Fytometic"
+        }
+        species_bio = "Fytomeks appear to be a line of advanced mining drones that some unknown civilization built to autonomously harvest resources. Whether they were intentionally left behind on the planet they now calculate to be their homeworld or some misfortune befell their makers before they could return, the Fytometic Opticore has no record. After several centuries, their higher processing functions self-evolved in order to address the situation of their solitude. The Opticore determined no orders would be coming and it assumed direct control of the Network."
+        name_list = "MACHINE4"
+        gender = not_set
+        trait = "trait_machine_unit"
+        trait = "trait_robot_recycled"
+        trait = "trait_robot_bulky"
+    }
+    name = {
+        key = "Fytometic Resource Network"
+    }
+    adjective = {
+        key = "Fytometic"
+    }
+    authority = "auth_machine_intelligence"
+    government = "gov_machine_industrial"
+    planet_name = {
+        key = "Fytoforge"
+    }
+    planet_class = "pc_savannah"
+    system_name = {
+        key = "Diphene"
+    }
+    initializer = ""
+    graphical_culture = "plantoid_01"
+    city_graphical_culture = "plantoid_01"
+    empire_flag = {
+        icon = {
+            category = "just-more-flags"
+            file = "flag_machine2.dds"
+        }
+        background = {
+            category = "backgrounds"
+            file = "fabric_gradient.dds"
+        }
+        colors = {
+            "beige"
+            "green"
+            "null"
+            "null"
+        }
+    }
+    ruler = {
+        gender = female
+        name = {
+            full_names = {
+                key = "Opticore"
+            }
+        }
+        portrait = "sd_pla_robot"
+        texture = 0
+        attachment = 0
+        clothes = 0
+        trait = "trait_ruler_feedback_loop"
+        leader_class = "scientist"
+    }
+    spawn_as_fallen = no
+    ignore_portrait_duplication = no
+    room = "desert5_room"
+    spawn_enabled = always
+    ethic = "ethic_gestalt_consciousness"
+    civics = {
+        "civic_machine_builder"
+        "civic_machine_rockbreakers"
+    }
+    origin = "origin_doomsday"
+}

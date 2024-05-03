@@ -1,0 +1,83 @@
+"Federated Tantai Republics" = {
+    key = "Federated Tantai Republics"
+    ship_prefix = {
+        key = "RNS"
+    }
+    species = {
+        class = "MAM"
+        portrait = "mam5"
+        species_name = {
+            key = "Pekuug"
+        }
+        species_plural = {
+            key = "Pekuugar"
+        }
+        species_adjective = {
+            key = "Pekuugese"
+        }
+        species_bio = "The early history of the planet Kotoyo is one wherein nation-state competed with nation-state for power in a game that advanced the interests of the few Pekuugar. By their late Modern Age, it was clear that these power struggles undermined and hollowed out the societies on their losing end and that the pursuit of economic development for its own sake was putting civilization itself at risk by triggering runaway earthquakes. A global government was the only viable solution. The four largest Pekuugese nations came together to form a Federation, a single shared destiny of peace forged in the light of their home star Tantai."
+        name_list = "MAM2"
+        gender = not_set
+        trait = "trait_charismatic"
+    }
+    name = {
+        key = "Federated Tantai Republics"
+    }
+    adjective = {
+        key = "Tantai"
+    }
+    authority = "auth_democratic"
+    government = "gov_moral_democracy"
+    planet_name = {
+        key = "Kotoyo"
+    }
+    planet_class = "pc_alpine"
+    system_name = {
+        key = "Tantai"
+    }
+    initializer = ""
+    graphical_culture = "humanoid_01"
+    city_graphical_culture = "mammalian_01"
+    empire_flag = {
+        icon = {
+            category = "just-more-flags"
+            file = "flag_egalitarian2.dds"
+        }
+        background = {
+            category = "backgrounds"
+            file = "fabric_stripes_rotated.dds"
+        }
+        colors = {
+            "light_orange"
+            "dark_brown"
+            "null"
+            "null"
+        }
+    }
+    ruler = {
+        gender = male
+        name = {
+            full_names = {
+                key = "Curyd Polor-Cyp"
+            }
+        }
+        portrait = "mam5"
+        texture = 4
+        attachment = 0
+        clothes = 2
+        trait = "trait_ruler_charismatic"
+        leader_class = "commander"
+    }
+    spawn_as_fallen = no
+    ignore_portrait_duplication = no
+    room = "cave7_room"
+    spawn_enabled = always
+    ethic = "ethic_egalitarian"
+    ethic = "ethic_xenophile"
+    ethic = "ethic_pacifist"
+    civics = {
+        "civic_parliamentary_system"
+        "civic_shadow_council"
+    }
+    origin = "origin_default"
+}

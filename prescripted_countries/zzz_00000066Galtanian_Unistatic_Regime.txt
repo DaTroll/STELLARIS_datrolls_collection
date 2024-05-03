@@ -1,0 +1,82 @@
+"Galtanian Unistatic Regime" = {
+    key = "Galtanian Unistatic Regime"
+    ship_prefix = {
+        key = "GRS"
+    }
+    species = {
+        class = "MAM"
+        portrait = "mam2"
+        species_name = {
+            key = "Cassor"
+        }
+        species_plural = {
+            key = "Cassors"
+        }
+        species_adjective = {
+            key = "Cassorian"
+        }
+        species_bio = "Cassorian civilization is controlled by a million little tyrants, each the despot of his or her laboratory or classroom or factory. Having thrown off the shackles of an oppressive theocratic regime that was content to let them all die in a great Warm Age, the natives of the arctic planet Galtan set about reconstructing their society along scientific principles. Thus they avoided a catastrophic Global Melting and bought time to develop spaceflight and become an interstellar empire. They didn't really do away with the oppression though. As Dr. Gadar Gimcham famously said, 'ACKCHYUALLY, the Unistatic system is very logical, so maybe educate yourself before you criticize our methods.'"
+        name_list = "MAM3"
+        gender = not_set
+        trait = "trait_intelligent"
+    }
+    name = {
+        key = "Galtanian Unistatic Regime"
+    }
+    adjective = {
+        key = "Galtanian"
+    }
+    authority = "auth_dictatorial"
+    government = "gov_technocratic_dictatorship"
+    planet_name = {
+        key = "Galtan"
+    }
+    planet_class = "pc_arctic"
+    system_name = {
+        key = "Ennari"
+    }
+    initializer = ""
+    graphical_culture = "mammalian_01"
+    city_graphical_culture = "mammalian_01"
+    empire_flag = {
+        icon = {
+            category = "just-more-flags"
+            file = "flag_materialist5.dds"
+        }
+        background = {
+            category = "backgrounds"
+            file = "fabric_stripe_rotated.dds"
+        }
+        colors = {
+            "dark_blue"
+            "dark_purple"
+            "null"
+            "null"
+        }
+    }
+    ruler = {
+        gender = female
+        name = {
+            full_names = {
+                key = "Dr. Gadar Gimcham"
+            }
+        }
+        portrait = "mam2"
+        texture = 4
+        attachment = 0
+        clothes = 1
+        trait = "leader_trait_spark_of_genius"
+        leader_class = "scientist"
+    }
+    spawn_as_fallen = no
+    ignore_portrait_duplication = no
+    room = "mech1_room"
+    spawn_enabled = always
+    ethic = "ethic_authoritarian"
+    ethic = "ethic_fanatic_materialist"
+    civics = {
+        "civic_technocracy"
+        "civic_cutthroat_politics"
+    }
+    origin = "origin_mechanists"
+}

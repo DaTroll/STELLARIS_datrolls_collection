@@ -1,0 +1,85 @@
+"Radiant Ororian Hierarchy" = {
+    key = "Radiant Ororian Hierarchy"
+    ship_prefix = {
+        key = "ORN"
+    }
+    species = {
+        class = "REP"
+        portrait = "rep6"
+        species_name = {
+            key = "Hekkot"
+        }
+        species_plural = {
+            key = "Hekkota"
+        }
+        species_adjective = {
+            key = "Hekkotan"
+        }
+        species_bio = "Though they ply the starlanes and vie for a place in the galactic power structure, the Hekkota still live in a surprisingly antiquated society. A powerful class of landed nobility, nominally loyal to the monarch on their homeworld of Orore, rules the same decentralized hierarchical empire that has endured since the Hekkotan Iron Age. Their largely uninterrupted cultural heritage may be behind the Space Age flowering of Hekkotan art and literature. One can seemingly always count on a Hekkotan to make an insightful observation or poignant turn of phrase, usually referencing some work or another from their rich cultural stock."
+        name_list = "REP1"
+        gender = not_set
+        trait = "trait_charismatic"
+        trait = "trait_enduring"
+        trait = "trait_sedentary"
+    }
+    name = {
+        key = "Radiant Ororian Hierarchy"
+    }
+    adjective = {
+        key = "Ororian"
+    }
+    authority = "auth_imperial"
+    government = "gov_feudal_empire"
+    planet_name = {
+        key = "Orore"
+    }
+    planet_class = "pc_ocean"
+    system_name = {
+        key = "Misal"
+    }
+    initializer = ""
+    graphical_culture = "reptilian_01"
+    city_graphical_culture = "reptilian_01"
+    empire_flag = {
+        icon = {
+            category = "just-more-flags"
+            file = "flag_authoritarian3.dds"
+        }
+        background = {
+            category = "backgrounds"
+            file = "fabric_stripe_rotated.dds"
+        }
+        colors = {
+            "dark_purple"
+            "purple"
+            "null"
+            "null"
+        }
+    }
+    ruler = {
+        gender = female
+        name = {
+            full_names = {
+                key = "Oeshez Ninimis"
+            }
+        }
+        portrait = "rep6"
+        texture = 1
+        attachment = 0
+        clothes = 0
+        trait = "trait_ruler_logistic_understanding"
+        leader_class = "official"
+    }
+    spawn_as_fallen = no
+    ignore_portrait_duplication = no
+    room = "underwater3_room"
+    spawn_enabled = always
+    ethic = "ethic_authoritarian"
+    ethic = "ethic_xenophile"
+    ethic = "ethic_spiritualist"
+    civics = {
+        "civic_aristocratic_elite"
+        "civic_feudal_realm"
+    }
+    origin = "origin_default"
+}

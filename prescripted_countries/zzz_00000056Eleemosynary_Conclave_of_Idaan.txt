@@ -1,0 +1,93 @@
+"Eleemosynary Conclave of Idaan" = {
+    key = "Eleemosynary Conclave of Idaan"
+    ship_prefix = {
+        key = "CNS"
+    }
+    species = {
+        class = "REP"
+        portrait = "rep1"
+        species_name = {
+            key = "Vindd"
+        }
+        species_plural = {
+            key = "Vinddi"
+        }
+        species_adjective = {
+            key = "Vinddine"
+        }
+        species_bio = "Physical fatigue is the path to serenity of soul, or so teaches the predominant faith of the Vinddi. Their homeworld, Urpesh, is a dry wind-swept planet baking under the shining light of Idaan, the Heavenly Torch. For generations, the Idaanic Jurists divined spiritual law by reading and interpreting the sunspots that appeared on the surface of their home star. The heavenly words instructed them to toil in their fields during the day and to study the stars at night. And so the Vinddi did. Then Idaan instructed them to behold their garden. And so the Vinddi developed space travel to monitor the weather and thus better tend vast agricultural holdings. But to their delight, their vision of Idaan was also much clearer from orbit. Idaan's last message was only this: seek me in the stars. And so the Vinddi will."
+        name_list = "REP2"
+        gender = not_set
+        trait = "trait_adaptive"
+        trait = "trait_agrarian"
+        trait = "trait_sedentary"
+        trait = "trait_weak"
+    }
+    name = {
+        key = "Eleemosynary Conclave of Idaan"
+    }
+    adjective = {
+        key = "Idaanic"
+    }
+    authority = "auth_oligarchic"
+    government = "gov_holy_tribunal"
+    planet_name = {
+        key = "Urpesh"
+    }
+    planet_class = "pc_arid"
+    system_name = {
+        key = "Idaan"
+    }
+    initializer = ""
+    graphical_culture = "reptilian_01"
+    city_graphical_culture = "reptilian_01"
+    empire_flag = {
+        icon = {
+            category = "just-more-flags"
+            file = "flag_spiritualist4.dds"
+        }
+        background = {
+            category = "backgrounds"
+            file = "fabric_circle.dds"
+        }
+        colors = {
+            "orange"
+            "light_orange"
+            "null"
+            "null"
+        }
+    }
+    ruler = {
+        gender = male
+        name = {
+            full_names = {
+                key = "Jinggundol Orlgundgrib"
+            }
+        }
+        portrait = "rep1"
+        texture = 0
+        attachment = 0
+        clothes = 4
+        ruler_title = {
+            key = "High Jurist"
+            literal = yes
+        }
+        ruler_title_female = {
+            key = "High Jurist"
+            literal = yes
+        }
+        trait = "leader_trait_principled"
+        leader_class = "official"
+    }
+    spawn_as_fallen = no
+    ignore_portrait_duplication = no
+    room = "spiritualist5_room"
+    spawn_enabled = always
+    ethic = "ethic_fanatic_pacifist"
+    ethic = "ethic_spiritualist"
+    civics = {
+        "civic_agrarian_idyll"
+        "civic_exalted_priesthood"
+    }
+    origin = "origin_default"
+}

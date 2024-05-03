@@ -1,0 +1,92 @@
+"Thogmarite Commerce Group" = {
+    key = "Thogmarite Commerce Group"
+    ship_prefix = {
+        key = "CTV"
+    }
+    species = {
+        class = "MOL"
+        portrait = "mol1"
+        species_name = {
+            key = "Chamaf"
+        }
+        species_plural = {
+            key = "Chamafs"
+        }
+        species_adjective = {
+            key = "Chamafi"
+        }
+        species_bio = "The great figures of Chamafi civilization are almost universally greedy, unscrupulous carpetbaggers. The average Chamaf is raised in a society driven by constant economic competition between corporations, which several centuries ago succeeded in usurping de facto control of their homeworld, Murg Lorr, from more directly altruistic governments. The Thogmarite Commerce Group, an always uneasy alliance struck between the largest such corporations, is all that passes for a central authority. The Group is meant to ensure equitable access to opportunities in the burgeoning galactic marketplace."
+        name_list = "MOL1"
+        gender = not_set
+        trait = "trait_adaptive"
+        trait = "trait_charismatic"
+        trait = "trait_weak"
+        trait = "trait_quarrelsome"
+    }
+    name = {
+        key = "Thogmarite Commerce Group"
+    }
+    adjective = {
+        key = "Thogmarite"
+    }
+    authority = "auth_corporate"
+    government = "gov_criminal_syndicate"
+    planet_name = {
+        key = "Murg Lorr"
+    }
+    planet_class = "pc_savannah"
+    system_name = {
+        key = "Thogmar"
+    }
+    initializer = ""
+    graphical_culture = "molluscoid_01"
+    city_graphical_culture = "molluscoid_01"
+    empire_flag = {
+        icon = {
+            category = "just-more-flags"
+            file = "flag_egalitarian3.dds"
+        }
+        background = {
+            category = "backgrounds"
+            file = "fabric_x60x3.dds"
+        }
+        colors = {
+            "light_blue"
+            "dark_blue"
+            "null"
+            "null"
+        }
+    }
+    ruler = {
+        gender = male
+        name = {
+            full_names = {
+                key = "Tramartar Jen-Meokar"
+            }
+        }
+        portrait = "mol1"
+        texture = 0
+        attachment = 0
+        clothes = 1
+        ruler_title = {
+            key = "Administrator"
+        }
+        ruler_title_female = {
+            key = "Administrator"
+        }
+        trait = "trait_ruler_charismatic"
+        leader_class = "commander"
+    }
+    spawn_as_fallen = no
+    ignore_portrait_duplication = no
+    room = "cityscape2_room"
+    spawn_enabled = always
+    ethic = "ethic_egalitarian"
+    ethic = "ethic_xenophile"
+    ethic = "ethic_militarist"
+    civics = {
+        "civic_criminal_heritage"
+        "civic_ruthless_competition"
+    }
+    origin = "origin_default"
+}

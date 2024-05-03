@@ -1,0 +1,83 @@
+"Cistrenthic Cybernetic Consensus" = {
+    key = "Cistrenthic Cybernetic Consensus"
+    ship_prefix = {
+        key = "CCS"
+    }
+    species = {
+        class = "MAM"
+        portrait = "mam6"
+        species_name = {
+            key = "Guatura"
+        }
+        species_plural = {
+            key = "Guaturans"
+        }
+        species_adjective = {
+            key = "Guaturan"
+        }
+        species_bio = "The Guaturans were on a path toward self-destruction as cycles of hegemonic nationalism played out in their industrial and atomic eras. Their exceptionally rapid development of information technology, aided by primitive AIs, ushered in a revolution and saved the species. Embracing techno-anarchism, the Guaturans entered an enduring period of post-scarcity managed by a distributed decision network called the Consensus. In the Consensus, every individual's life is made easier by the assistance of a range of robotic appliances, and society and culture thrive on the hyperspeed communication links accessed by all citizens via cranial implants. Decisions of the central government are entirely based on FTL polling aggregation, with the Chancellor and other officials serving primarily as technicians who ensure the security of the underlying technology."
+        name_list = "MAM1"
+        gender = not_set
+        trait = "trait_conservational"
+        trait = "trait_quick_learners"
+    }
+    name = {
+        key = "Cistrenthic Cybernetic Consensus"
+    }
+    adjective = {
+        key = "Cistrenthic"
+    }
+    authority = "auth_democratic"
+    government = "gov_communal_parity"
+    planet_name = {
+        key = "Trenth Wen"
+    }
+    planet_class = "pc_continental"
+    system_name = {
+        key = "Nemdehek"
+    }
+    initializer = ""
+    graphical_culture = "fungoid_01"
+    city_graphical_culture = "mammalian_01"
+    empire_flag = {
+        icon = {
+            category = "just-more-flags"
+            file = "flag_egalitarian5.dds"
+        }
+        background = {
+            category = "backgrounds"
+            file = "fabric_circle.dds"
+        }
+        colors = {
+            "yellow"
+            "dark_green"
+            "null"
+            "null"
+        }
+    }
+    ruler = {
+        gender = female
+        name = {
+            full_names = {
+                key = "Tag Jach Dvoruss"
+            }
+        }
+        portrait = "mam6"
+        texture = 1
+        attachment = 0
+        clothes = 2
+        trait = "trait_ruler_eye_for_talent"
+        leader_class = "official"
+    }
+    spawn_as_fallen = no
+    ignore_portrait_duplication = no
+    room = "cityscape14_room"
+    spawn_enabled = always
+    ethic = "ethic_fanatic_egalitarian"
+    ethic = "ethic_materialist"
+    civics = {
+        "civic_idealistic_foundation"
+        "civic_shared_burden"
+    }
+    origin = "origin_mechanists"
+}

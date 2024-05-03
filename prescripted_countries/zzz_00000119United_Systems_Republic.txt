@@ -1,0 +1,84 @@
+"United Systems Republic" = {
+    key = "United Systems Republic"
+    ship_prefix = {
+        key = "USS"
+    }
+    species = {
+        class = "HUM"
+        portrait = "human"
+        species_name = {
+            key = "Human"
+        }
+        species_plural = {
+            key = "Humans"
+        }
+        species_adjective = {
+            key = "Human"
+        }
+        species_bio = "In the wake of disasters like the Fourth Persian Gulf Crisis, the Sino-American Data Wars, and the Graying of Moscow in the mid-21st Century, support increased for fundamental reform of the United Nations to empower it as a global government capable of managing problems at a planetary scale. The UN Charter amendment of 2061 created the UN Parliamentary Assembly and Protectorate Council, followed in subsequent years by numerous other structural changes. The old Westphalian system was at last fatally undermined by the rise of this world government backed by the military might of emerging superpowers, Brazil and India. Continued administrative integration eventually led to the asymmetric federalization of all UN member states by 2150. In this scheme, off-world colonies are administered by various types of devolved governments under the oversight of the Protectorate until they can qualify for federal incorporation. Reliable FTL travel via hyperlanes and the prospect of interstellar colonization laid the foundation for the UN to evolve yet further into the United Systems Republic, a responsible representative government advancing the interests of Humanity on the galactic stage."
+        name_list = "HUMAN1"
+        gender = not_set
+        trait = "trait_adaptive"
+    }
+    name = {
+        key = "United Systems Republic"
+    }
+    adjective = {
+        key = "Earth"
+    }
+    authority = "auth_democratic"
+    government = "gov_moral_democracy"
+    advisor_voice_type = "l_the_diplomat"
+    planet_name = {
+        key = "Earth"
+    }
+    planet_class = "pc_continental"
+    system_name = {
+        key = "Sol"
+    }
+    initializer = "sol_system_initializer"
+    graphical_culture = "humanoid_01"
+    city_graphical_culture = "humanoid_01"
+    empire_flag = {
+        icon = {
+            category = "just-more-flags"
+            file = "flag_united_systems_republic.dds"
+        }
+        background = {
+            category = "backgrounds"
+            file = "fabric_circle.dds"
+        }
+        colors = {
+            "blue"
+            "dark_blue"
+            "null"
+            "null"
+        }
+    }
+    ruler = {
+        gender = female
+        name = {
+            full_names = {
+                key = "Benazir Buzdar"
+            }
+        }
+        portrait = "human_female_03"
+        texture = 0
+        attachment = 1
+        clothes = 1
+        trait = "trait_ruler_eye_for_talent"
+        leader_class = "scientist"
+    }
+    spawn_as_fallen = no
+    ignore_portrait_duplication = no
+    room = "human6_room"
+    spawn_enabled = always
+    ethic = "ethic_egalitarian"
+    ethic = "ethic_xenophile"
+    ethic = "ethic_pacifist"
+    civics = {
+        "civic_beacon_of_liberty"
+        "civic_parliamentary_system"
+    }
+    origin = "origin_default"
+}

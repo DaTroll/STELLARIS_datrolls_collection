@@ -1,0 +1,89 @@
+"Kamak Union Star Command" = {
+    key = "Kamak Union Star Command"
+    ship_prefix = {
+        key = "KNV"
+    }
+    species = {
+        class = "AVI"
+        portrait = "avi1"
+        species_name = {
+            key = "Strelek"
+        }
+        species_plural = {
+            key = "Streleek"
+        }
+        species_adjective = {
+            key = "Strelekan"
+        }
+        species_bio = "Join the Star Command and save the Union! Not long before discovering hyperspace, the Streleek fought a bloody civil war for control of their home system. The forces of their homeworld Kamak emerged victorious. Culturally transformed by the conflict and not yet ready to turn their nukes back into ploughshares, they enter the galactic stage as a potential military powerhouse."
+        name_list = "AVI2"
+        gender = not_set
+        trait = "trait_rapid_breeders"
+    }
+    name = {
+        key = "Kamak Union Star Command"
+    }
+    adjective = {
+        key = "Kamaki"
+    }
+    authority = "auth_democratic"
+    government = "gov_military_commissariat"
+    advisor_voice_type = "l_the_soldier"
+    planet_name = {
+        key = "Kamak"
+    }
+    planet_class = "pc_savannah"
+    system_name = {
+        key = "Charan"
+    }
+    initializer = ""
+    graphical_culture = "avian_01"
+    city_graphical_culture = "avian_01"
+    empire_flag = {
+        icon = {
+            category = "just-more-flags"
+            file = "flag_militarist11.dds"
+        }
+        background = {
+            category = "backgrounds"
+            file = "fabric_x60.dds"
+        }
+        colors = {
+            "green"
+            "beige"
+            "null"
+            "null"
+        }
+    }
+    ruler = {
+        gender = male
+        name = {
+            full_names = {
+                key = "Olowan Brightbeak"
+            }
+        }
+        portrait = "avi1"
+        texture = 2
+        attachment = 0
+        clothes = 3
+        ruler_title = {
+            key = "Commissar-General"
+        }
+        ruler_title_female = {
+            key = "Commissar-General"
+        }
+        trait = "trait_ruler_logistic_understanding"
+        leader_class = "official"
+    }
+    spawn_as_fallen = no
+    ignore_portrait_duplication = no
+    room = "militarist12_room"
+    spawn_enabled = always
+    ethic = "ethic_egalitarian"
+    ethic = "ethic_fanatic_militarist"
+    civics = {
+        "civic_distinguished_admiralty"
+        "civic_nationalistic_zeal"
+    }
+    origin = "origin_payback"
+}

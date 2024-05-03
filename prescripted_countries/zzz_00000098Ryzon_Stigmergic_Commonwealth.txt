@@ -1,0 +1,89 @@
+"Ryzon Stigmergic Commonwealth" = {
+    key = "Ryzon Stigmergic Commonwealth"
+    ship_prefix = {
+        key = "RRS"
+    }
+    species = {
+        class = "AVI"
+        portrait = "avi11"
+        species_name = {
+            key = "Strigin"
+        }
+        species_plural = {
+            key = "Strigoi"
+        }
+        species_adjective = {
+            key = "Strigish"
+        }
+        species_bio = "In their early Space Age, the Strigoi of Ryzon used information technology to power a global revolution that brought about the fall of traditional dictatorial and theocratic power structures on their homeworld. In their wake rose the Stigmergic Commonwealth, a boldly-conceived open source society driven by a gift economy and decentralized systems of collaborative organization. While the subsequent generations have encountered their share of problems with this form of government, the ideal has endured. As it looks to the stars, the Commonwealth remains remarkably free, tolerant, and peaceful."
+        name_list = "AVI2"
+        gender = not_set
+        trait = "trait_communal"
+        trait = "trait_conservational"
+    }
+    name = {
+        key = "Ryzon Stigmergic Commonwealth"
+    }
+    adjective = {
+        key = "Ryzon"
+    }
+    authority = "auth_democratic"
+    government = "gov_communal_parity"
+    planet_name = {
+        key = "Ryzon"
+    }
+    planet_class = "pc_arctic"
+    system_name = {
+        key = "Jal Par"
+    }
+    initializer = ""
+    graphical_culture = "avian_01"
+    city_graphical_culture = "avian_01"
+    empire_flag = {
+        icon = {
+            category = "just-more-flags"
+            file = "flag_egalitarian8.dds"
+        }
+        background = {
+            category = "backgrounds"
+            file = "fabric_stripe.dds"
+        }
+        colors = {
+            "dark_blue"
+            "light_blue"
+            "null"
+            "null"
+        }
+    }
+    ruler = {
+        gender = female
+        name = {
+            full_names = {
+                key = "Mazalan"
+            }
+        }
+        portrait = "avi11"
+        texture = 1
+        attachment = 0
+        clothes = 1
+        ruler_title = {
+            key = "Prime Motivator"
+        }
+        ruler_title_female = {
+            key = "Prime Motivator"
+        }
+        trait = "trait_ruler_industrialist"
+        leader_class = "official"
+    }
+    spawn_as_fallen = no
+    ignore_portrait_duplication = no
+    room = "cityscape9_room"
+    spawn_enabled = always
+    ethic = "ethic_fanatic_egalitarian"
+    ethic = "ethic_pacifist"
+    civics = {
+        "civic_idealistic_foundation"
+        "civic_shared_burden"
+    }
+    origin = "origin_default"
+}

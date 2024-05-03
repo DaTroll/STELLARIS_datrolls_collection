@@ -1,0 +1,84 @@
+"Sordaxi Inquisitorial Order" = {
+    key = "Sordaxi Inquisitorial Order"
+    ship_prefix = {
+        key = ""
+    }
+    species = {
+        class = "AVI"
+        portrait = "avi13"
+        species_name = {
+            key = "Sordax"
+        }
+        species_plural = {
+            key = "Sordaxi"
+        }
+        species_adjective = {
+            key = "Sordacian"
+        }
+        species_bio = "The all-powerful Inquisition headquartered on the frozen planet Eakuu teaches that the Sordacian mind and body, the latter of which is comparatively quite robust by galactic standards, are divine perfection itself. Their gods demand that this unequaled expression of life stand alone in a celestial paradise over which they will rule eternal. This doctrine will likely bring the Sordaxi into conflict early and often in their history as a galactic power."
+        name_list = "AVI3"
+        gender = not_set
+        trait = "trait_extremely_adaptive"
+        trait = "trait_slow_breeders"
+        trait = "trait_slow_learners"
+    }
+    name = {
+        key = "Sordaxi Inquisitorial Order"
+    }
+    adjective = {
+        key = "Sordaxi"
+    }
+    authority = "auth_dictatorial"
+    government = "gov_purity_order"
+    planet_name = {
+        key = "Eakuu"
+    }
+    planet_class = "pc_arctic"
+    system_name = {
+        key = "Carcan"
+    }
+    initializer = ""
+    graphical_culture = "avian_01"
+    city_graphical_culture = "avian_01"
+    empire_flag = {
+        icon = {
+            category = "just-more-flags"
+            file = "flag_purifier2.dds"
+        }
+        background = {
+            category = "backgrounds"
+            file = "fabric_spiral.dds"
+        }
+        colors = {
+            "burgundy"
+            "black"
+            "null"
+            "null"
+        }
+    }
+    ruler = {
+        gender = male
+        name = {
+            full_names = {
+                key = "Tlaxtli"
+            }
+        }
+        portrait = "avi13"
+        texture = 4
+        attachment = 0
+        clothes = 0
+        trait = "trait_ruler_warlike"
+        leader_class = "commander"
+    }
+    spawn_as_fallen = no
+    ignore_portrait_duplication = no
+    room = "robotic2_room"
+    spawn_enabled = always
+    ethic = "ethic_fanatic_xenophobe"
+    ethic = "ethic_spiritualist"
+    civics = {
+        "civic_fanatic_purifiers"
+        "civic_mining_guilds"
+    }
+    origin = "origin_default"
+}

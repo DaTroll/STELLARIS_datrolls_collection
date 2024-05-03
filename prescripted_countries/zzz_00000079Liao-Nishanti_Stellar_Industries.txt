@@ -1,0 +1,86 @@
+"Liao-Nishanti Stellar Industries" = {
+    key = "Liao-Nishanti Stellar Industries"
+    ship_prefix = {
+        key = "LNCV"
+    }
+    species = {
+        class = "HUM"
+        portrait = "human"
+        species_name = {
+            key = "Human"
+        }
+        species_plural = {
+            key = "Humans"
+        }
+        species_adjective = {
+            key = "Human"
+        }
+        species_bio = "The only organization on Earth capable of bankrolling a colonization mission through an unstable wormhole in the late 21st Century, the Sino-African conglomerate Liao-Nishanti effectively bought the development rights to whatever lay on the other side. Through the wormhole was the Deneb System and the Human-habitable moon Pyrrho. The corporate colony's first challenge was to create an entire economic infrastructure, from top to bottom, out of whole cloth. In doing so, they made the great leap from understanding wealth as currency to understanding wealth as energy, but the investment cost them their economic edge on the old homeworld. The board committed fully to Project Pyrrho, transferring all remaining assets to Deneb just before the collapse of the wormhole. But when, at last, the time comes for Liao-Nishanti to transition from megacorporation to galactic government, then the true genius of the their strategy may become apparent. Energy is the lifeblood of society, and when the chips are down, he who controls the energy supply will control the stars."
+        name_list = "HUMAN1"
+        gender = not_set
+        trait = "trait_adaptive"
+        trait = "trait_nomadic"
+        trait = "trait_wasteful"
+    }
+    name = {
+        key = "Liao-Nishanti Stellar Industries"
+    }
+    adjective = {
+        key = "Deneb"
+    }
+    authority = "auth_corporate"
+    government = "gov_megacorporation"
+    advisor_voice_type = "l_evil_corp"
+    planet_name = {
+        key = "Pyrrho"
+    }
+    planet_class = "pc_continental"
+    system_name = {
+        key = "Deneb"
+    }
+    initializer = "deneb_system"
+    graphical_culture = "humanoid_01"
+    city_graphical_culture = "humanoid_01"
+    empire_flag = {
+        icon = {
+            category = "just-more-flags"
+            file = "flag_liao_nishanti_stellar_industries.dds"
+        }
+        background = {
+            category = "backgrounds"
+            file = "fabric_half_black_circle.dds"
+        }
+        colors = {
+            "beige"
+            "dark_grey"
+            "null"
+            "null"
+        }
+    }
+    ruler = {
+        gender = male
+        name = {
+            full_names = {
+                key = "Mosemotsane Kwayi"
+            }
+        }
+        portrait = "human_male_05"
+        texture = 0
+        attachment = 4
+        clothes = 0
+        trait = "leader_trait_spark_of_genius"
+        leader_class = "scientist"
+    }
+    spawn_as_fallen = no
+    ignore_portrait_duplication = no
+    room = "corporate2_room"
+    spawn_enabled = always
+    ethic = "ethic_authoritarian"
+    ethic = "ethic_pacifist"
+    ethic = "ethic_materialist"
+    civics = {
+        "civic_indentured_assets"
+        "civic_ruthless_competition"
+    }
+    origin = "origin_default"
+}

@@ -1,0 +1,92 @@
+"Great Bountiful Empire of Behgana" = {
+    key = "Great Bountiful Empire of Behgana"
+    ship_prefix = {
+        key = "BINC"
+    }
+    species = {
+        class = "MAM"
+        portrait = "mam13"
+        species_name = {
+            key = "Zir-Ura"
+        }
+        species_plural = {
+            key = "Zir-Urae"
+        }
+        species_adjective = {
+            key = "Zir-Uran"
+        }
+        species_bio = "The ponderous movements and manerisms of the average (and frankly enormous) Zir-Uran may make one question how their species ever got out of the caves of Behgana let alone into space, but these great beings are not so slow as they seem. When excited, they can make quite an impact. Most Zir-Urae live as subjects not of the Arkande Emperors themselves but of one or another of the lesser imperial dukes who possess vast feudal estates. Noble lords and ladies are expected to administer their holdings benevolently, spreading as much fortune and joy among their people as possible, and they face reclamation of their titles by the crown if they abuse their power."
+        name_list = "MAM4"
+        gender = not_set
+        trait = "trait_very_strong"
+        trait = "trait_slow_breeders"
+    }
+    name = {
+        key = "Great Bountiful Empire of Behgana"
+    }
+    adjective = {
+        key = "Behganan"
+    }
+    authority = "auth_imperial"
+    government = "gov_enlightened_monarchy"
+    planet_name = {
+        key = "Behgana"
+    }
+    planet_class = "pc_arctic"
+    system_name = {
+        key = "Aslaya"
+    }
+    initializer = ""
+    graphical_culture = "mammalian_01"
+    city_graphical_culture = "mammalian_01"
+    empire_flag = {
+        icon = {
+            category = "just-more-flags"
+            file = "flag_spiritualist9.dds"
+        }
+        background = {
+            category = "backgrounds"
+            file = "fabric_circle.dds"
+        }
+        colors = {
+            "dark_blue"
+            "dark_teal"
+            "null"
+            "null"
+        }
+    }
+    ruler = {
+        gender = male
+        name = {
+            full_names = {
+                key = "Lonchimbeldax Arkande"
+            }
+        }
+        portrait = "mam13"
+        texture = 2
+        attachment = 0
+        clothes = 1
+        ruler_title = {
+            key = "Emperor"
+            literal = yes
+        }
+        ruler_title_female = {
+            key = "Empress"
+            literal = yes
+        }
+        trait = "leader_trait_fleet_organizer"
+        leader_class = "commander"
+    }
+    spawn_as_fallen = no
+    ignore_portrait_duplication = no
+    room = "apocalyptic12_room"
+    spawn_enabled = always
+    ethic = "ethic_authoritarian"
+    ethic = "ethic_pacifist"
+    ethic = "ethic_spiritualist"
+    civics = {
+        "civic_feudal_realm"
+        "civic_philosopher_king"
+    }
+    origin = "origin_default"
+}

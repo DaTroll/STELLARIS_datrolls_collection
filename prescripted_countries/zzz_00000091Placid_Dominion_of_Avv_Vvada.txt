@@ -1,0 +1,84 @@
+"Placid Dominion of Avv Vvada" = {
+    key = "Placid Dominion of Avv Vvada"
+    ship_prefix = {
+        key = "AVV"
+    }
+    species = {
+        class = "FUN"
+        portrait = "fun10"
+        species_name = {
+            key = "Tafri"
+        }
+        species_plural = {
+            key = "Tafrim"
+        }
+        species_adjective = {
+            key = "Tafrin"
+        }
+        species_bio = "The House of Qamvs, whose members ruled their homeworld of Avv Vvada for two centuries before discovering the hyperlane network, remains the trusted guide and protector of the Tafrin species. The Tafrim place great faith in the power of technology to overcome the challenges in front of them. Facing a population crisis in their late Modern Age, the ruling family invested heavily in spaceflight, opening the planets and stars for exploration and expansion by their ever-wandering and ever-multiplying subjects."
+        name_list = "FUN3"
+        gender = not_set
+        trait = "trait_nomadic"
+        trait = "trait_natural_engineers"
+    }
+    name = {
+        key = "Placid Dominion of Avv Vvada"
+    }
+    adjective = {
+        key = "Avv Vvadan"
+    }
+    authority = "auth_imperial"
+    government = "gov_despotic_hegemony"
+    planet_name = {
+        key = "Avv Vvada"
+    }
+    planet_class = "pc_tundra"
+    system_name = {
+        key = "Lavvyl"
+    }
+    initializer = ""
+    graphical_culture = "fungoid_01"
+    city_graphical_culture = "fungoid_01"
+    empire_flag = {
+        icon = {
+            category = "just-more-flags"
+            file = "flag_materialist6.dds"
+        }
+        background = {
+            category = "backgrounds"
+            file = "fabric_x120.dds"
+        }
+        colors = {
+            "light_green"
+            "blue"
+            "null"
+            "null"
+        }
+    }
+    ruler = {
+        gender = female
+        name = {
+            full_names = {
+                key = "Zavabb Qamvs"
+            }
+        }
+        portrait = "fun10"
+        texture = 6
+        attachment = 0
+        clothes = 2
+        trait = "trait_ruler_logistic_understanding"
+        leader_class = "scientist"
+    }
+    spawn_as_fallen = no
+    ignore_portrait_duplication = no
+    room = "tech12_room"
+    spawn_enabled = always
+    ethic = "ethic_xenophile"
+    ethic = "ethic_pacifist"
+    ethic = "ethic_materialist"
+    civics = {
+        "civic_functional_architecture"
+        "civic_aristocratic_elite"
+    }
+    origin = "origin_mechanists"
+}

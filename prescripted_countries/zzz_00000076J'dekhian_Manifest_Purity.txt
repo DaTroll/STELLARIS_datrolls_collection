@@ -1,0 +1,83 @@
+"J'dekhian Manifest Purity" = {
+    key = "J'dekhian Manifest Purity"
+    ship_prefix = {
+        key = ""
+    }
+    species = {
+        class = "ART"
+        portrait = "art17"
+        species_name = {
+            key = "J'dekh"
+        }
+        species_plural = {
+            key = "J'dexai"
+        }
+        species_adjective = {
+            key = "J'dekhian"
+        }
+        species_bio = "'We're all gonna die, the only question is when. This is as good a place as any to take your first steps to heaven. The only question is how you check out. Do you wanna go on your feet? Or on your [redacted] knees, begging? I ain't much for begging! Nobody ever gave me nothin! So I say [redacted] that thing! Let's fight it!' -Exerpt of final audio log from Jamestown Colony after contact with a J'dekhian scouting unit"
+        name_list = "ART2"
+        gender = not_set
+        trait = "trait_very_strong"
+        trait = "trait_solitary"
+    }
+    name = {
+        key = "J'dekhian Manifest Purity"
+    }
+    adjective = {
+        key = "J'dekhian"
+    }
+    authority = "auth_oligarchic"
+    government = "gov_purification_committee"
+    planet_name = {
+        key = "Vurl-Don"
+    }
+    planet_class = "pc_ocean"
+    system_name = {
+        key = "Reng-Qal"
+    }
+    initializer = ""
+    graphical_culture = "arthropoid_01"
+    city_graphical_culture = "arthropoid_01"
+    empire_flag = {
+        icon = {
+            category = "just-more-flags"
+            file = "flag_purifier3.dds"
+        }
+        background = {
+            category = "backgrounds"
+            file = "fabric_circle.dds"
+        }
+        colors = {
+            "dark_grey"
+            "black"
+            "null"
+            "null"
+        }
+    }
+    ruler = {
+        gender = female
+        name = {
+            full_names = {
+                key = "Dak Zad-Tr'Gish"
+            }
+        }
+        portrait = "art17"
+        texture = 3
+        attachment = 0
+        clothes = 0
+        trait = "leader_trait_fleet_organizer"
+        leader_class = "commander"
+    }
+    spawn_as_fallen = no
+    ignore_portrait_duplication = no
+    room = "hive2_room"
+    spawn_enabled = always
+    ethic = "ethic_fanatic_xenophobe"
+    ethic = "ethic_militarist"
+    civics = {
+        "civic_fanatic_purifiers"
+        "civic_warrior_culture"
+    }
+    origin = "origin_default"
+}

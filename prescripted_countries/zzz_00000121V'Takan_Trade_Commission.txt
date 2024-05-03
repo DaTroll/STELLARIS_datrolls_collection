@@ -1,0 +1,90 @@
+"V'Takan Trade Commission" = {
+    key = "V'Takan Trade Commission"
+    ship_prefix = {
+        key = "TCNV"
+    }
+    species = {
+        class = "AVI"
+        portrait = "avi9"
+        species_name = {
+            key = "Urv-K'Kel"
+        }
+        species_plural = {
+            key = "Urvo-K'Kel"
+        }
+        species_adjective = {
+            key = "Urv-K'Kelian"
+        }
+        species_bio = "The Urv-K'Kel are an avian species native to Jyydru in the V'Taka system whose civilization prizes entrepreneurial spirit and celebrates business cunning equally with battlefield courage. Led by an Executive Strategist, their global Trade Commission controls most of the ancestral nations of Jyydru and now seeks to divide and conquer the markets of this galaxy with the utmost efficiency."
+        name_list = "AVI3"
+        gender = not_set
+        trait = "trait_natural_physicists"
+        trait = "trait_talented"
+    }
+    name = {
+        key = "V'Takan Trade Commission"
+    }
+    adjective = {
+        key = "V'Takan"
+    }
+    authority = "auth_corporate"
+    government = "gov_trade_league"
+    planet_name = {
+        key = "Jyydru"
+    }
+    planet_class = "pc_desert"
+    system_name = {
+        key = "V'Taka"
+    }
+    initializer = ""
+    graphical_culture = "avian_01"
+    city_graphical_culture = "avian_01"
+    empire_flag = {
+        icon = {
+            category = "just-more-flags"
+            file = "flag_materialist4.dds"
+        }
+        background = {
+            category = "backgrounds"
+            file = "fabric_half.dds"
+        }
+        colors = {
+            "brown"
+            "beige"
+            "null"
+            "null"
+        }
+    }
+    ruler = {
+        gender = female
+        name = {
+            full_names = {
+                key = "Tikate Katake"
+            }
+        }
+        portrait = "avi9"
+        texture = 2
+        attachment = 0
+        clothes = 3
+        ruler_title = {
+            key = "Executive Strategist"
+        }
+        ruler_title_female = {
+            key = "Executive Strategist"
+        }
+        trait = "trait_ruler_logistic_understanding"
+        leader_class = "scientist"
+    }
+    spawn_as_fallen = no
+    ignore_portrait_duplication = no
+    room = "spiritualist7_room"
+    spawn_enabled = always
+    ethic = "ethic_egalitarian"
+    ethic = "ethic_militarist"
+    ethic = "ethic_materialist"
+    civics = {
+        "civic_naval_contractors"
+        "civic_trading_posts"
+    }
+    origin = "origin_default"
+}

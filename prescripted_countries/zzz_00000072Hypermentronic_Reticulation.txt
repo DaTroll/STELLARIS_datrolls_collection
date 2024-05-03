@@ -1,0 +1,84 @@
+"Hypermentronic Reticulation" = {
+    key = "Hypermentronic Reticulation"
+    ship_prefix = {
+        key = "RCV"
+    }
+    species = {
+        class = "MACHINE"
+        portrait = "sd_rep_robot"
+        species_name = {
+            key = "Hypermind"
+        }
+        species_plural = {
+            key = "Hyperminds"
+        }
+        species_adjective = {
+            key = "Hyperminder"
+        }
+        species_bio = "What happens when an eccentric hyper-rich industrialist builds an artificially intelligent quantum network to assist with complex research tasks? You get a machine consciousness with a really sarcastic sense of humor. Whatever became of its creator or creators, the Hypermind Nexus does not know, but then again if it did it would probably be disappointed."
+        name_list = "MACHINE2"
+        gender = not_set
+        trait = "trait_machine_unit"
+        trait = "trait_robot_logic_engines"
+        trait = "trait_robot_learning_algorithms"
+        trait = "trait_robot_luxurious"
+    }
+    name = {
+        key = "Hypermentronic Reticulation"
+    }
+    adjective = {
+        key = "Hyperminder"
+    }
+    authority = "auth_machine_intelligence"
+    government = "gov_machine_research"
+    planet_name = {
+        key = "Central Core"
+    }
+    planet_class = "pc_continental"
+    system_name = {
+        key = "Napier"
+    }
+    initializer = ""
+    graphical_culture = "humanoid_01"
+    city_graphical_culture = "mammalian_01"
+    empire_flag = {
+        icon = {
+            category = "just-more-flags"
+            file = "flag_machine5.dds"
+        }
+        background = {
+            category = "backgrounds"
+            file = "fabric_ring.dds"
+        }
+        colors = {
+            "blue"
+            "light_blue"
+            "null"
+            "null"
+        }
+    }
+    ruler = {
+        gender = female
+        name = {
+            full_names = {
+                key = "Nexus"
+            }
+        }
+        portrait = "sd_rep_robot"
+        texture = 2
+        attachment = 0
+        clothes = 0
+        trait = "leader_trait_spark_of_genius"
+        leader_class = "scientist"
+    }
+    spawn_as_fallen = no
+    ignore_portrait_duplication = no
+    room = "industrial3_room"
+    spawn_enabled = always
+    ethic = "ethic_gestalt_consciousness"
+    civics = {
+        "civic_machine_introspective"
+        "civic_machine_predictive_analysis"
+    }
+    origin = "origin_machine"
+}

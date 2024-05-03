@@ -1,0 +1,86 @@
+"Surmeki Throne Worlds" = {
+    key = "Surmeki Throne Worlds"
+    ship_prefix = {
+        key = "HMS"
+    }
+    species = {
+        class = "REP"
+        portrait = "rep15"
+        species_name = {
+            key = "Ssurmek"
+        }
+        species_plural = {
+            key = "Ssurmekii"
+        }
+        species_adjective = {
+            key = "Ssurmekish"
+        }
+        species_bio = "With an intense (but not quite psychotic) distaste for other species, the emperors of the Ssurmekii of the Mezak system see the galaxy as a little more than a source of slaves, sport, and snacks. Their Throne Worlds are a place of limitless pleasures for the chosen aristocracy and a living hell for almost all other sentient life. Heavy armament and a solid escape plan are recommended before agreeing to any face-to-face meetings with a Ssurmek."
+        name_list = "REP1"
+        gender = not_set
+        trait = "trait_enduring"
+        trait = "trait_resilient"
+        trait = "trait_thrifty"
+        trait = "trait_decadent"
+        trait = "trait_wasteful"
+    }
+    name = {
+        key = "Surmeki Throne Worlds"
+    }
+    adjective = {
+        key = "Mezakine"
+    }
+    authority = "auth_imperial"
+    government = "gov_despotic_empire"
+    planet_name = {
+        key = "Ro'Malas"
+    }
+    planet_class = "pc_tropical"
+    system_name = {
+        key = "Mezak"
+    }
+    initializer = ""
+    graphical_culture = "reptilian_01"
+    city_graphical_culture = "reptilian_01"
+    empire_flag = {
+        icon = {
+            category = "just-more-flags"
+            file = "flag_authoritarian5.dds"
+        }
+        background = {
+            category = "backgrounds"
+            file = "circle.dds"
+        }
+        colors = {
+            "burgundy"
+            "red_orange"
+            "null"
+            "null"
+        }
+    }
+    ruler = {
+        gender = male
+        name = {
+            full_names = {
+                key = "Shaur the Great"
+            }
+        }
+        portrait = "rep15"
+        texture = 3
+        attachment = 0
+        clothes = 1
+        trait = "trait_ruler_warlike"
+        leader_class = "commander"
+    }
+    spawn_as_fallen = no
+    ignore_portrait_duplication = no
+    room = "throne2_room"
+    spawn_enabled = always
+    ethic = "ethic_authoritarian"
+    ethic = "ethic_fanatic_xenophobe"
+    civics = {
+        "civic_aristocratic_elite"
+        "civic_slaver_guilds"
+    }
+    origin = "origin_default"
+}
