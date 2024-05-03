@@ -1,0 +1,44 @@
+{
+    "deploy.reloaded": {
+        "values": {
+            "outputDir": {
+                "type": "code",
+                "code": "require('os').homedir() + '/'"
+            }
+        },
+        
+        "packages": [
+            {
+                "name": "DaTroll's Collection",
+                "description": "DaTroll's Collection",
+
+                "button": {
+                    "text": "Deploy to DaTroll's Collection",
+                    
+                    "targets": [ "DaTroll's Collection" ]
+                },
+
+                "files": [
+                    "**",
+                ],
+                "exclude": [
+                    ".vscode/**",
+                    "*.md",
+                    "exported.json"
+                ],
+
+                "deployOnSaveButton": [ "DaTroll's Collection" ]
+            },
+        ],
+
+        "targets": [          
+            {
+                "type": "local",
+                "name": "DaTroll's Collection",
+                "description": "Local folder",
+
+                "dir": "${outputDir}/Documents/Paradox Interactive/Stellaris/mod/IronyModManager_Stellaris_-_DaTroll's_Collection/"
+            },
+        ]
+    }
+}
