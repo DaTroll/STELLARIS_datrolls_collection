@@ -57,7 +57,7 @@
             
             {
                 "type": "local",
-                "name": "DaTroll's Collection IroneyModManager DEV Folder",
+                "name": "DaTroll's Collection IronyModManager DEV Folder",
                 "description": "Local folder",
 
                 "dir": "${outputDir}/Documents/Paradox Interactive/Stellaris/mod/IronyModManager_Stellaris_-_DaTroll's_Collection_DEV/"
