@@ -24,7 +24,7 @@
                 "exclude": [
                     ".vscode/**",
                     "*.md",
-                    "exported.json"
+                    "*.zip"
                 ],
 
                 "deployOnSaveButton": [ "DaTroll's Collection" ]
@@ -41,7 +41,7 @@
                 "exclude": [
                     ".vscode/**",
                     "*.md",
-                    "exported.json"
+                    "*.zip"
                 ],
             },
         ],
