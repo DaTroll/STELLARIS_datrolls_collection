@@ -31,9 +31,9 @@
             },
 
             {
-                "name": "DaTroll's Collection IroneyModManager DEV Folder",
-                "description": "DaTroll's Collection IroneyModManager DEV Folder",
-                "syncWhenOpen": "DaTroll's Collection IroneyModManager DEV Folder",
+                "name": "DaTroll's Collection IronyModManager DEV Folder",
+                "description": "DaTroll's Collection IronyModManager DEV Folder",
+                "syncWhenOpen": "DaTroll's Collection IronyModManager DEV Folder",
 
                 "files": [
                     "**",
